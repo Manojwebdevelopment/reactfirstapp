@@ -10,9 +10,9 @@ function App() {
     <Navbar/>
     <Routes>
       <Route exact path="/" Component={Home}/>
-      <Route exact path="Service" Component={Service}/>
-      <Route exact path="Contact" Component={Contact}/>
-      <Route exact path="about" Component={About}/>
+      <Route exact path="/service" Component={Service}/>
+      <Route exact path="/sontact" Component={Contact}/>
+      <Route exact path="/about" Component={About}/>
       {/* <Route Component={Error}/> */}
     </Routes>
     </>

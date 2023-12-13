@@ -5,6 +5,7 @@ export default function Image(props) {
   return (
     <>
         <img className='demo_img' src={img} alt='pic'/>
+        
     </>
   )
 }
